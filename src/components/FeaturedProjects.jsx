@@ -132,7 +132,6 @@ const FeaturedProjects = () => {
         end: () => `+=${cards.length * cardHeight}`,
         scrub: true,
         animation: animation,
-        markers: true,
         invalidateOnRefresh: true,
       });
 
