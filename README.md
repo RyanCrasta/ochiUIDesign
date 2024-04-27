@@ -1,8 +1,11 @@
-# React + Vite
+UI clone of Ochi design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I used LocomotiveJs to add a smooth scroll effect and to implement parallax effect i.e. the background content is moved at a different speed than the foreground content while scrolling.
 
-Currently, two official plugins are available:
+ScrollTrigger to detect when a particular element is visible on screen, to pin a section and animate it using GSAP.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Text reveal, button and header animations are done using GSAP.
+
+Steps to follow:
+npm install
+npm run dev
