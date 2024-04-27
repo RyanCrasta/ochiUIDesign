@@ -124,7 +124,7 @@
   overflow: hidden;
   border-radius: 50rem;
   left: 2rem;
-  top: 24rem;
+  top: 25rem;
 }
 
 #ballonSevenUp {
@@ -249,7 +249,7 @@
   padding: 0.5rem 1rem;
   border-radius: 50rem;
   position: absolute;
-  bottom: 1.5rem;
+  top: 25rem;
   left: 2rem;
   font-family: NeueMontreal;
 }
@@ -639,6 +639,10 @@
     bottom: 1rem;
     top: unset;
   }
+  #copyRightOchi {
+    top: unset;
+    bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 820px) {
@@ -654,10 +658,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #copyRightOchi {
-    bottom: 1rem;
-  }
-
   #projectDetails {
     flex-direction: column;
     padding: 2rem;
